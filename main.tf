@@ -9,8 +9,8 @@ terraform {
 
 provider "google" {
   # Configuration options
-  project = "travel-plans-class-5"
+  project = var.project_name
   region = "us-central1"
   zone = "us-central1-a"
-  credentials = "/home/ohbster/Cloud/GCP/auth/travel-plans-class-5-9f56545a27dd.json"
+  #credentials = "/home/ohbster/Cloud/GCP/auth/travel-plans-class-5-9f56545a27dd.json"
 }
