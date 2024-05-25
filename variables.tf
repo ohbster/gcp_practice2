@@ -7,3 +7,7 @@ variable "network_name" {
     type = string
     description = "Main VPC name"  
 }
+
+variable "credentials" {
+  type = string
+}
