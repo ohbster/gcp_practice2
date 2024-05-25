@@ -10,4 +10,5 @@ variable "network_name" {
 
 variable "credentials" {
   type = string
+  default = "whoops-no-creds-lol.json"
 }
