@@ -12,5 +12,5 @@ provider "google" {
   project = var.project_name
   region = "us-central1"
   zone = "us-central1-a"
-  credentials = var.credentials
+  # credentials = var.credentials
 }
